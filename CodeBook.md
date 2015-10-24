@@ -98,7 +98,7 @@ These are:
 * fBodyBodyGyroJerkMag-meanFreq()
 
 ##Output File: tidy_data.txt
-The output file is contains 180 rows and 81 columns. 
+The output file contains 180 rows and 81 columns. 
 * Column #1 is the subject identifier who participated in the study.
 * Column #2 is the activity description
 * Columns 3-81 contain the average of the variables above for each subject and each activity. 
