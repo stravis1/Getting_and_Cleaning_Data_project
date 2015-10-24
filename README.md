@@ -10,12 +10,16 @@ The class project is to produce a R program titled run_analyis.R to combine two 
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## How to Run
-The data set which was provided can be found at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+## Pre-Requisits
+1. Obtain the data:  The data can be downloaded from  [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+2. Unzip the dataset in a working directory.
+3. Set you R environment to the working directory containing the dataset root directory, which is "../getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset".
+4. Move run_analysis.R into the working directory. 
 
-## Steps to prepare to run.
-1. Download the data set above to your working directory and unzip.
-2. With the run_analysis.R in the same working directory issue the command "run_analysis.R"
+
+## How to Run run_analysis.R
+run_analysis.R contains a set of scripts to read the data provided and produce a summarized output table called "tidy_data.txt" in the working directory. If the pre-requisit steps have been completed, run_analysis.R can be called without parameters and will output tidy_data.txt. 
+
 
 ## Program Output
-The program will output a text file named tidy_data which contains a table of 180 rows and 79 columns of measurements.  There are 6 measurements for each of the 30 participants in the study. 
+The program will output a text file named tidy_data.txt which contains a table of 180 rows and 81 columns of measurements.  There are 6 measurements for each of the 30 participants in the study. To read tidy_data.txt into R use: dt <- read.csv("tidy_data.txt", sep=" ").
