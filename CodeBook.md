@@ -15,7 +15,8 @@ The overall dataset,when unzipped, contains two main subsets, test and train. Ea
 The three files for each subset are merged into a table and then the two resultant tables are merged to create a master table to be analized. 
 
 #Measurements
-From the 561 possible measurements for each observation, 79 were c hosen for the summary based on their names containing either substrings "mean" or "std".   These are:
+From the 561 possible measurements for each observation, 79 were c hosen for the summary based on their names containing either substrings "mean" or "std".   
+These are:
 * tBodyAcc-mean()-X	
 * tBodyAcc-mean()-Y	
 * tBodyAcc-mean()-Z	
