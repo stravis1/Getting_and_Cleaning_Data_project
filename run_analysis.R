@@ -18,9 +18,7 @@ mergeTables <- function(dataDir) {
     
     print("Reading Train data sets")
     xTrain <- read.table(paste(dataDir,"/train/X_train.txt", sep = ""))
-    
     yTrain <- read.table(paste(dataDir,"/train/Y_train.txt", sep = ""))
-    
     subTrain <- read.table(paste(dataDir,"/train/subject_train.txt", sep = ""))
     
     
@@ -30,9 +28,7 @@ mergeTables <- function(dataDir) {
     
     print("Reading Test data sets")
     xTest <- read.table(paste(dataDir,"/test/X_test.txt", sep = ""))
-    
     yTest <- read.table(paste(dataDir,"/test/Y_test.txt", sep = ""))
-    
     subTest <- read.table(paste(dataDir,"/test/subject_test.txt", sep = ""))
     
     print("Merging Test data sets")
@@ -73,7 +69,6 @@ rowLabels <- function(DT, datadir){
             }
     }
     DT
-
 }
 
 #################################################
@@ -93,7 +88,6 @@ varLabels <- function(DT,datadir){
     colnames(DT)[1] <- "Subject"
     
     DT
-    
 }
 
 #################################################
