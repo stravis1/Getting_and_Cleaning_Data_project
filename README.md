@@ -22,4 +22,4 @@ run_analysis.R contains a set of scripts to read the data provided and produce a
 
 
 ## Program Output
-The program will output a text file named tidy_data.txt which contains a table of 180 rows and 81 columns of measurements.  There are 6 measurements for each of the 30 participants in the study. To read tidy_data.txt into R use: dt <- read.csv("tidy_data.txt", sep=" ").
+The program will output a text file named tidy_data.txt which contains a table of 180 rows and 81 columns of measurements.  There are 6 measurements for each of the 30 participants in the study. To read tidy_data.txt into R use: **dt <- read.csv("tidy_data.txt", sep=" ")**.
