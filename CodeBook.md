@@ -1,18 +1,18 @@
 ## CodeBook for Getting and Cleaning Data Class Project Oct. 2015
-The purpose of this book is to describe the data analyized and the output data.
+The purpose of this book is to describe the data analyzed and the output data.
 
-## Data analyized:
+## Data Analyzed:
 The project data comes from the UCI Machine Learning Repository
 [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 The dataset used can downloaded at [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-The overall dataset,when unzipped, contains two main subsets, test and train. Each of these contains three main files:
-* subject_(xxxx).txt: proides the IDs for the 30 individuals that particpated in the observations. 
+The overall dataset, when unzipped, contains two main subsets, test and train. Each of these contains three main files:
+* subject_(xxxx).txt: provides the IDs for the 30 individuals that participated in the observations. 
 * X_(xxxx).txt: contains the individual measurements (variables) gathered from each observation. 561 individual measurements for each observation were provided.
 * Y_(XXXX).txt: contains the numeric indicator for the 6 possible activities associated with each observation. 
 
-The three files for each subset are merged into a table and then the two resultant tables are merged to create a master table to be analized. 
+The three files for each subset are merged into a table and then the two resultant tables are merged to create a master table to be analyzed. 
 
 #Measurements
 From the 561 possible measurements for each observation, 79 were c hosen for the summary based on their names containing either substrings "mean" or "std".   
